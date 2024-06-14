@@ -1,0 +1,85 @@
+/* .parent{
+    background-color: red;
+    height: 1000px;
+    display:flex;
+    justify-content: flex-start;
+    align-items:stretch;
+    gap:10px;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+.child{
+    background-color: aqua;
+    height:100px;
+    width:100px;
+} */
+ /* button{
+    background-color: black;
+    color:bisque;
+    transition-delay: 2000ms;
+    transition-duration: 2000ms;
+    transition-property: background-color;
+    transition-timing-function: ;
+    height: 500px;
+    width:500px;
+   
+ }
+button:hover{
+background-color: aqua;
+color:blueviolet;
+ } */
+.h{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+}
+ .d{
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  border-radius: 100%;
+ }
+ .d:hover{
+  animation:moveTheBall 5s ease-in-out forwards;
+}
+ 
+@keyframes moveTheBall{
+  25%{
+    transform:translate(100%);
+  }
+  50%{
+    transition:translate();
+  }
+  75%{
+    transition:translate();
+  }
+  100%{
+    transition:translate();
+  }
+}
+@media only screen and (max-width:800px)
+{ h1{
+  color: blue;
+}
+}
+@media only screen and (max-width:400px)
+{ h1{
+  color:yellow;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

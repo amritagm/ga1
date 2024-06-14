@@ -1,0 +1,43 @@
+div{
+    color:black;
+    background:yellow;
+    border:2px solid red;
+    
+}
+button:hover{
+    color:red;
+}
+button:active{
+    border:5px solid yellow;
+}
+button:focus{
+    color:green;
+}
+.shape{
+    background-color: black;
+    width:150px;
+    height:150px;
+    margin:100px;
+    position:relative;
+    border-radius: 50%;
+}
+.shape::before{
+    content:" ";
+    position:absolute;
+    background-color: yellow;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    top:0;
+    left:0
+}
+.shape::after{
+    content:" ";
+    position:absolute;
+    background-color: yellow;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    top:0;
+    left:0
+}
